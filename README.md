@@ -2,8 +2,8 @@
 
 - [x] Learn a lot !
 
-- [ ] Implement Redux to share state with Header component
+- [x] Implement Redux to share state with Header component
 
-- [ ] Fix minor bugs
+- [x] Fix minor bugs
 
 - [ ] Implement new small funcionalities

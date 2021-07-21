@@ -1,11 +1,14 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
 import { Container } from './styles';
 
-function Header(props) {
+function Header() {
+  const result = useSelector(state => state.screen);
+
   return (
       < Container >
-          <input type="text" disabled value={props.result}/>
+          <input type="text" disabled value={result}/>
 
       </Container>
   );
