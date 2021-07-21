@@ -1,6 +1,6 @@
 import React from 'react';
 import * as math from 'mathjs';
-import Header from '../Header';
+import Screen from '../Screen';
 
 import { Container, Keys } from './styles';
 import { useDispatch, useSelector } from 'react-redux';
@@ -28,7 +28,7 @@ function Calculator() {
     return (
 
         <Container>
-            <Header/>
+            <Screen/>
             <Keys>
                 <button className="top-3" onClick={() => dispatch(setScreen(''))}>AC</button>
                 <button className="top-3" disabled>+/-</button>

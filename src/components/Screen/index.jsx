@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 import { Container } from './styles';
 
-function Header() {
+function Screen() {
   const result = useSelector(state => state.screen);
 
   return (
@@ -14,4 +14,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Screen;
