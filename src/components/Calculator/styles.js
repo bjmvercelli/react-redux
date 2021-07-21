@@ -18,6 +18,7 @@ export const Keys = styled.div`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(60px, auto);
+    height: 300px;
 
     button {
         border-radius: 100%;
