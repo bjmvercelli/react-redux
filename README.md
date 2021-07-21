@@ -6,4 +6,4 @@
 
 - [x] Fix minor bugs
 
-- [ ] Implement new small funcionalities
+- [ ] Implement new small funcionalities (responsivity)
